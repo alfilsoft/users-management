@@ -6,14 +6,16 @@ import LogIn from './LogIn';
 import reportWebVitals from './reportWebVitals';
 import Footer from './Footer';
 import Header from './Header';
+import Util from './Util';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />     
+        
     <LogIn />
+    <Util />
     <Footer />
   </React.StrictMode>
 ); 
