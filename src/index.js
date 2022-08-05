@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './css/index.css';
 import App from './App';
 import LogIn from './LogIn'; 
@@ -14,12 +15,15 @@ import Create from './Views/Create-views';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />     
-    
-    <StarMenu />
-    <Create />
+    <Header />
+
+     <Create />
+
       
-    <Footer />
+    
+    
+      
+    
   </React.StrictMode>
 ); 
 

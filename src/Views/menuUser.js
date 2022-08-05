@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import header from "../Header";
-
-
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function StarMenu(){
     return (
@@ -11,7 +9,7 @@ function StarMenu(){
                 Star Menu
             </h1>  
             <section>
-            <a href="Create-views.html">Create</a>         
+                   
 
          
         
